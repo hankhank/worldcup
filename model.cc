@@ -162,7 +162,7 @@ const std::array<Team, 32> goldenGroups =
 int main()
 {
     std::array<Team, 32> finalResults = goldenGroups;
-    for(int simCount = 0; simCount < 1; ++simCount)
+    for(int simCount = 0; simCount < 1e6; ++simCount)
     {
         std::array<Team, 32> groups = goldenGroups;
         // simulate groups
